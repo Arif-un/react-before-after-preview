@@ -1,3 +1,23 @@
 ._react-b-a-wrp{
-  background: red;
+  background: rgb(139, 201, 255);
+  position: relative;
+  display: inline-block;
+ /*  margin: 30px; */
+}
+._before_after{
+  position: absolute;
+}
+._before{
+  background: blue;
+  width: 10%;
+  color: bisque !important;
+  overflow: hidden;
+  z-index: 900;
+}
+._bar{
+  background: blueviolet;
+  width: 10px;
+  display: inline-block;
+  position: absolute;
+  z-index: 999;
 }
